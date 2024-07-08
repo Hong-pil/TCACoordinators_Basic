@@ -14,9 +14,24 @@ struct TCACoordinators_BasicApp: App {
         WindowGroup {
             //ContentView()
             
-            TCACoordinators_BasicAppView(
-                store: Store(initialState: AppReducer.State()) {
-                    AppReducer()
+            /// Build 1
+//            TCACoordinators_BasicAppView(
+//                store: Store(initialState: AppReducer.State()) {
+//                    AppReducer()
+//                }
+//            )
+            
+            /// Build 2
+//            CoordinatorView(
+//                store: Store(initialState: Coordinator.State()) {
+//                    Coordinator()
+//                }
+//            )
+            
+            /// Build 3
+            CoordinatorView_Exam02(
+                store: Store(initialState: Coordinator_Exam02.State()) {
+                    Coordinator_Exam02()
                 }
             )
             

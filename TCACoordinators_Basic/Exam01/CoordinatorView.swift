@@ -50,7 +50,8 @@ struct Coordinator {
             case .router(.routeAction(_, action: .step1(.nextPage))):
                 state.routes.push(.step2(.init()))
             case .router(.routeAction(_, action: .step2(.dismissPage))):
-                state.routes.dismiss()
+                state.routes.goBackToRoot()
+                //state.routes.dismiss()
                 
             default:
                 break

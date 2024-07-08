@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5812852C3BA3D1008227C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812842C3BA3D1008227C8 /* HomeView.swift */; };
+		CD5812872C3BA3E6008227C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812862C3BA3E6008227C8 /* DetailView.swift */; };
+		CD58128F2C3BA639008227C8 /* CoordinatorView_Exam02.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58128E2C3BA639008227C8 /* CoordinatorView_Exam02.swift */; };
 		E01397E62C39674D007EEA43 /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = E01397E52C39674D007EEA43 /* TCACoordinators */; };
 		E0B9ED312C3933DA00318C89 /* TCACoordinators_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9ED302C3933DA00318C89 /* TCACoordinators_BasicApp.swift */; };
 		E0B9ED352C3933DC00318C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B9ED342C3933DC00318C89 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5812842C3BA3D1008227C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CD5812862C3BA3E6008227C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CD58128E2C3BA639008227C8 /* CoordinatorView_Exam02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView_Exam02.swift; sourceTree = "<group>"; };
 		E0B9ED2D2C3933DA00318C89 /* TCACoordinators_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCACoordinators_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B9ED302C3933DA00318C89 /* TCACoordinators_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCACoordinators_BasicApp.swift; sourceTree = "<group>"; };
 		E0B9ED342C3933DC00318C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD5812832C3BA3BD008227C8 /* Exam02 */ = {
+			isa = PBXGroup;
+			children = (
+				CD5812842C3BA3D1008227C8 /* HomeView.swift */,
+				CD5812862C3BA3E6008227C8 /* DetailView.swift */,
+				CD58128E2C3BA639008227C8 /* CoordinatorView_Exam02.swift */,
+			);
+			path = Exam02;
+			sourceTree = "<group>";
+		};
 		E0B9ED242C3933DA00318C89 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +126,7 @@
 		E0B9ED2F2C3933DA00318C89 /* TCACoordinators_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				CD5812832C3BA3BD008227C8 /* Exam02 */,
 				E0B9ED602C39345200318C89 /* Exam01 */,
 				E0B9ED6B2C3935C200318C89 /* App */,
 				E0B9ED342C3933DC00318C89 /* Assets.xcassets */,
@@ -303,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5812852C3BA3D1008227C8 /* HomeView.swift in Sources */,
 				E0B9ED662C39347300318C89 /* Screen.swift in Sources */,
+				CD58128F2C3BA639008227C8 /* CoordinatorView_Exam02.swift in Sources */,
 				E0B9ED682C39347D00318C89 /* CoordinatorView.swift in Sources */,
+				CD5812872C3BA3E6008227C8 /* DetailView.swift in Sources */,
 				E0B9ED6A2C39350200318C89 /* TCACoordinators_BasicAppView.swift in Sources */,
 				E0B9ED6F2C3935DE00318C89 /* AppReducer.swift in Sources */,
 				E0B9ED622C39345F00318C89 /* Step1View.swift in Sources */,
