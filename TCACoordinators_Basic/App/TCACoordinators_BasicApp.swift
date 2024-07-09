@@ -29,11 +29,19 @@ struct TCACoordinators_BasicApp: App {
 //            )
             
             /// Build 3
-            CoordinatorView_Exam02(
-                store: Store(initialState: Coordinator_Exam02.State()) {
-                    Coordinator_Exam02()
+//            CoordinatorView_Exam02(
+//                store: Store(initialState: Coordinator_Exam02.State()) {
+//                    Coordinator_Exam02()
+//                }
+//            )
+            
+            
+            RepoSearchCoordinatorView(
+                store: Store(initialState: RepoSearchCoordinator.State()) {
+                    RepoSearchCoordinator()
                 }
             )
+            
             
         }
     }

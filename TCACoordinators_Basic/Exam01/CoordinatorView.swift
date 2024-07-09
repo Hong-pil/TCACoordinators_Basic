@@ -24,10 +24,10 @@ struct Coordinator {
 //        init(routes: [Route<Screen.State>] = [.root(.guide1(Guide1Reducer.State()), embedInNavigationView: true)]) {
 //            self.routes = routes
 //        }
+        
         init(routes: [Route<Screen.State>] = [.root(.step1(Step1Reducer.State()), embedInNavigationView: true)]) {
             self.routes = routes
         }
-        
         
 //        init(routes: [Route<Screen.State>] = [.root(.koo(KooContentReducer.State()), embedInNavigationView: true)]) {
 //            self.routes = routes

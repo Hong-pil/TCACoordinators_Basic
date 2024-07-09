@@ -10,6 +10,21 @@
 		CD5812852C3BA3D1008227C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812842C3BA3D1008227C8 /* HomeView.swift */; };
 		CD5812872C3BA3E6008227C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812862C3BA3E6008227C8 /* DetailView.swift */; };
 		CD58128F2C3BA639008227C8 /* CoordinatorView_Exam02.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58128E2C3BA639008227C8 /* CoordinatorView_Exam02.swift */; };
+		CD5812922C3CC6D5008227C8 /* RepoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812912C3CC6D5008227C8 /* RepoSearch.swift */; };
+		CD5812942C3CC6E3008227C8 /* RepoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812932C3CC6E3008227C8 /* RepoSearchView.swift */; };
+		CD5812962C3CC6F8008227C8 /* RepoSearchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812952C3CC6F8008227C8 /* RepoSearchDetail.swift */; };
+		CD5812982C3CC705008227C8 /* RepoSearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812972C3CC705008227C8 /* RepoSearchDetailView.swift */; };
+		CD58129A2C3CCB58008227C8 /* RepoSearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812992C3CCB58008227C8 /* RepoSearchCoordinatorView.swift */; };
+		CD58129C2C3CE044008227C8 /* RepoSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58129B2C3CE044008227C8 /* RepoSearchModel.swift */; };
+		CD58129E2C3CE2D8008227C8 /* RepoSearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58129D2C3CE2D8008227C8 /* RepoSearchClient.swift */; };
+		CD5812A02C3CF57C008227C8 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58129F2C3CF57C008227C8 /* APIError.swift */; };
+		CD5812A22C3CF58A008227C8 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812A12C3CF58A008227C8 /* LoadingState.swift */; };
+		CD5812BA2C3D2DD3008227C8 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812B92C3D2DD3008227C8 /* APIRouter.swift */; };
+		CD5812BC2C3D2E02008227C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812BB2C3D2E02008227C8 /* NetworkClient.swift */; };
+		CD5812BE2C3D2E31008227C8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812BD2C3D2E31008227C8 /* User.swift */; };
+		CD5812C02C3D2E68008227C8 /* UserFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812BF2C3D2E68008227C8 /* UserFeature.swift */; };
+		CD5812C22C3D2EFF008227C8 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5812C12C3D2EFF008227C8 /* UserView.swift */; };
+		CD5812C52C3D321C008227C8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CD5812C42C3D321C008227C8 /* Alamofire */; };
 		E01397E62C39674D007EEA43 /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = E01397E52C39674D007EEA43 /* TCACoordinators */; };
 		E0B9ED312C3933DA00318C89 /* TCACoordinators_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9ED302C3933DA00318C89 /* TCACoordinators_BasicApp.swift */; };
 		E0B9ED352C3933DC00318C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B9ED342C3933DC00318C89 /* Assets.xcassets */; };
@@ -48,6 +63,20 @@
 		CD5812842C3BA3D1008227C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CD5812862C3BA3E6008227C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CD58128E2C3BA639008227C8 /* CoordinatorView_Exam02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView_Exam02.swift; sourceTree = "<group>"; };
+		CD5812912C3CC6D5008227C8 /* RepoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearch.swift; sourceTree = "<group>"; };
+		CD5812932C3CC6E3008227C8 /* RepoSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchView.swift; sourceTree = "<group>"; };
+		CD5812952C3CC6F8008227C8 /* RepoSearchDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchDetail.swift; sourceTree = "<group>"; };
+		CD5812972C3CC705008227C8 /* RepoSearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchDetailView.swift; sourceTree = "<group>"; };
+		CD5812992C3CCB58008227C8 /* RepoSearchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchCoordinatorView.swift; sourceTree = "<group>"; };
+		CD58129B2C3CE044008227C8 /* RepoSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchModel.swift; sourceTree = "<group>"; };
+		CD58129D2C3CE2D8008227C8 /* RepoSearchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchClient.swift; sourceTree = "<group>"; };
+		CD58129F2C3CF57C008227C8 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CD5812A12C3CF58A008227C8 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		CD5812B92C3D2DD3008227C8 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		CD5812BB2C3D2E02008227C8 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		CD5812BD2C3D2E31008227C8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CD5812BF2C3D2E68008227C8 /* UserFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeature.swift; sourceTree = "<group>"; };
+		CD5812C12C3D2EFF008227C8 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		E0B9ED2D2C3933DA00318C89 /* TCACoordinators_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCACoordinators_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B9ED302C3933DA00318C89 /* TCACoordinators_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCACoordinators_BasicApp.swift; sourceTree = "<group>"; };
 		E0B9ED342C3933DC00318C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5812C52C3D321C008227C8 /* Alamofire in Frameworks */,
 				E01397E62C39674D007EEA43 /* TCACoordinators in Frameworks */,
 				E0B9ED5C2C39341C00318C89 /* ComposableArchitecture in Frameworks */,
 			);
@@ -103,6 +133,34 @@
 			path = Exam02;
 			sourceTree = "<group>";
 		};
+		CD5812902C3CC6A6008227C8 /* Exam_GithubSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CD5812912C3CC6D5008227C8 /* RepoSearch.swift */,
+				CD5812932C3CC6E3008227C8 /* RepoSearchView.swift */,
+				CD5812952C3CC6F8008227C8 /* RepoSearchDetail.swift */,
+				CD5812972C3CC705008227C8 /* RepoSearchDetailView.swift */,
+				CD5812992C3CCB58008227C8 /* RepoSearchCoordinatorView.swift */,
+				CD58129B2C3CE044008227C8 /* RepoSearchModel.swift */,
+				CD58129D2C3CE2D8008227C8 /* RepoSearchClient.swift */,
+				CD58129F2C3CF57C008227C8 /* APIError.swift */,
+				CD5812A12C3CF58A008227C8 /* LoadingState.swift */,
+			);
+			path = Exam_GithubSearch;
+			sourceTree = "<group>";
+		};
+		CD5812A32C3D2427008227C8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CD5812BB2C3D2E02008227C8 /* NetworkClient.swift */,
+				CD5812B92C3D2DD3008227C8 /* APIRouter.swift */,
+				CD5812BD2C3D2E31008227C8 /* User.swift */,
+				CD5812BF2C3D2E68008227C8 /* UserFeature.swift */,
+				CD5812C12C3D2EFF008227C8 /* UserView.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		E0B9ED242C3933DA00318C89 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +184,8 @@
 		E0B9ED2F2C3933DA00318C89 /* TCACoordinators_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				CD5812A32C3D2427008227C8 /* Networking */,
+				CD5812902C3CC6A6008227C8 /* Exam_GithubSearch */,
 				CD5812832C3BA3BD008227C8 /* Exam02 */,
 				E0B9ED602C39345200318C89 /* Exam01 */,
 				E0B9ED6B2C3935C200318C89 /* App */,
@@ -201,6 +261,7 @@
 			packageProductDependencies = (
 				E0B9ED5B2C39341C00318C89 /* ComposableArchitecture */,
 				E01397E52C39674D007EEA43 /* TCACoordinators */,
+				CD5812C42C3D321C008227C8 /* Alamofire */,
 			);
 			productName = TCACoordinators_Basic;
 			productReference = E0B9ED2D2C3933DA00318C89 /* TCACoordinators_Basic.app */;
@@ -277,6 +338,7 @@
 			packageReferences = (
 				E0B9ED5A2C39341C00318C89 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				E01397E42C39674D007EEA43 /* XCRemoteSwiftPackageReference "TCACoordinators" */,
+				CD5812C32C3D321C008227C8 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = E0B9ED2E2C3933DA00318C89 /* Products */;
 			projectDirPath = "";
@@ -320,17 +382,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5812942C3CC6E3008227C8 /* RepoSearchView.swift in Sources */,
 				CD5812852C3BA3D1008227C8 /* HomeView.swift in Sources */,
+				CD5812C22C3D2EFF008227C8 /* UserView.swift in Sources */,
+				CD5812962C3CC6F8008227C8 /* RepoSearchDetail.swift in Sources */,
+				CD58129C2C3CE044008227C8 /* RepoSearchModel.swift in Sources */,
 				E0B9ED662C39347300318C89 /* Screen.swift in Sources */,
 				CD58128F2C3BA639008227C8 /* CoordinatorView_Exam02.swift in Sources */,
+				CD58129A2C3CCB58008227C8 /* RepoSearchCoordinatorView.swift in Sources */,
+				CD5812BA2C3D2DD3008227C8 /* APIRouter.swift in Sources */,
+				CD5812922C3CC6D5008227C8 /* RepoSearch.swift in Sources */,
+				CD5812A02C3CF57C008227C8 /* APIError.swift in Sources */,
 				E0B9ED682C39347D00318C89 /* CoordinatorView.swift in Sources */,
 				CD5812872C3BA3E6008227C8 /* DetailView.swift in Sources */,
+				CD5812982C3CC705008227C8 /* RepoSearchDetailView.swift in Sources */,
+				CD5812A22C3CF58A008227C8 /* LoadingState.swift in Sources */,
 				E0B9ED6A2C39350200318C89 /* TCACoordinators_BasicAppView.swift in Sources */,
+				CD58129E2C3CE2D8008227C8 /* RepoSearchClient.swift in Sources */,
 				E0B9ED6F2C3935DE00318C89 /* AppReducer.swift in Sources */,
 				E0B9ED622C39345F00318C89 /* Step1View.swift in Sources */,
 				E0B9ED6D2C3935D400318C89 /* LiveScoreAppDelegate.swift in Sources */,
 				E0B9ED312C3933DA00318C89 /* TCACoordinators_BasicApp.swift in Sources */,
+				CD5812BC2C3D2E02008227C8 /* NetworkClient.swift in Sources */,
 				E0B9ED642C39346900318C89 /* Step2View.swift in Sources */,
+				CD5812BE2C3D2E31008227C8 /* User.swift in Sources */,
+				CD5812C02C3D2E68008227C8 /* UserFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +578,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,6 +608,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -662,6 +740,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CD5812C32C3D321C008227C8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 		E01397E42C39674D007EEA43 /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/johnpatrickmorgan/TCACoordinators";
@@ -681,6 +767,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CD5812C42C3D321C008227C8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD5812C32C3D321C008227C8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		E01397E52C39674D007EEA43 /* TCACoordinators */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E01397E42C39674D007EEA43 /* XCRemoteSwiftPackageReference "TCACoordinators" */;
