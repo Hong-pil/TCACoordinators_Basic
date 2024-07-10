@@ -9,20 +9,22 @@ import Foundation
 import Alamofire
 
 enum APIRouter {
+    // 연습용
     case getUsers
     case getUserDetail(id: Int)
     case createUser(name: String, email: String)
-    // 다른 엔드포인트들...
+    // 사용
+    case gitSearch(txt: String)
 }
 
 extension APIRouter: URLRequestConvertible {
     var baseURL: URL {
-        return URL(string: "https://api.example.com")!
+        return URL(string: "https://api.github.com")!
     }
     
     var method: HTTPMethod {
         switch self {
-        case .getUsers, .getUserDetail:
+        case .getUsers, .getUserDetail, .gitSearch:
             return .get
         case .createUser:
             return .post
@@ -37,6 +39,8 @@ extension APIRouter: URLRequestConvertible {
             return "/users/\(id)"
         case .createUser:
             return "/users"
+        case .gitSearch(let txt):
+            return "/search/repositories"
         }
     }
     
@@ -46,6 +50,8 @@ extension APIRouter: URLRequestConvertible {
             return nil
         case .createUser(let name, let email):
             return ["name": name, "email": email]
+        case .gitSearch(let txt):
+            return ["q": txt]
         }
     }
     

@@ -16,9 +16,9 @@ struct RepoSearchDetailView: View {
             VStack {
                 
                 Button(action: {
-                    viewStore.send(.dismissPage)
+                    viewStore.send(.goBackToRootPage)
                 }, label: {
-                    Text("Dismiss Page")
+                    Text("Go to RootPage")
                 })
                 .padding()
                 

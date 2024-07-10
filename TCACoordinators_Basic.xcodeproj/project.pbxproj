@@ -155,8 +155,8 @@
 				CD5812BB2C3D2E02008227C8 /* NetworkClient.swift */,
 				CD5812B92C3D2DD3008227C8 /* APIRouter.swift */,
 				CD5812BD2C3D2E31008227C8 /* User.swift */,
-				CD5812BF2C3D2E68008227C8 /* UserFeature.swift */,
 				CD5812C12C3D2EFF008227C8 /* UserView.swift */,
+				CD5812BF2C3D2E68008227C8 /* UserFeature.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";

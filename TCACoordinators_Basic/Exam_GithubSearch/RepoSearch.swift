@@ -26,7 +26,11 @@ struct RepoSearch {
     }
     
     // 네트워크 통신
+    // old
     @Dependency(\.repoSearchClient) var repoSearchClient
+    // new
+    @Dependency(\.networkClient) var networkClient
+    
     
     var body: some ReducerOf<Self> {
         Reduce { state, action in
@@ -37,10 +41,22 @@ struct RepoSearch {
             case .search:
                 state.isLoading = true
                 
-                return Effect.run { [keyword = state.keyword] send in
-                    let result = await TaskResult { try await repoSearchClient.search(keyword) }
+                // old
+//                return Effect.run { [keyword = state.keyword] send in
+//                    let result = await TaskResult { try await repoSearchClient.search(keyword) }
+//                    await send(.dataLoaded(result))
+//                }
+                
+                // new
+                return .run { [keyword = state.keyword] send in
+                    let result = await TaskResult {
+                        let data = try await networkClient.request(.gitSearch(txt: keyword))
+                        return try JSONDecoder().decode(RepoSearchModel.self, from: data)
+                    }
+                    
                     await send(.dataLoaded(result))
                 }
+                
             case let .dataLoaded(.success(repositoryModel)):
                 state.isLoading = false
                 state.searchResults = repositoryModel.items.map { $0.name }

@@ -16,7 +16,7 @@ struct RepoSearchDetail {
     
     enum Action {
         case backgroundTapped
-        case dismissPage
+        case goBackToRootPage
     }
     
     var body: some ReducerOf<Self> {
@@ -24,7 +24,7 @@ struct RepoSearchDetail {
             switch action {
             case .backgroundTapped:
                 return .none
-            case .dismissPage:
+            case .goBackToRootPage:
                 return .none
             }
         }

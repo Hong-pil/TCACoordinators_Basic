@@ -37,7 +37,7 @@ struct RepoSearchCoordinator {
             switch action {
             case let .router(.routeAction(_, action: .search(.goDetailPage(txt)))):
                 state.routes.push(.detail(.init(title: txt)))
-            case .router(.routeAction(_, action: .detail(.dismissPage))):
+            case .router(.routeAction(_, action: .detail(.goBackToRootPage))):
                 state.routes.goBackToRoot()
                 
             default:

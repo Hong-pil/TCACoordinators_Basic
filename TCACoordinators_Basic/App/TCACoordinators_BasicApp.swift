@@ -42,7 +42,6 @@ struct TCACoordinators_BasicApp: App {
                 }
             )
             
-            
         }
     }
 }
